@@ -1,21 +1,21 @@
-# restconfServerInterface
-- Technology specific augmentation to the LayerProtocol class for RESTCONF Servers.
+# operationServerInterface
+- Technology specific augmentation to the LayerProtocol class for Operation Servers.
 - Thorsten Heinze (Thorsten.Heinze@openBackhaul.com)
 
 ### Branch
 - 1.0.0-tsi.d.t : Rudimentary model for Telefonica Germany internal use
 
 ### UML
-- [AirInterface_2.0.0-tsp.191122.1800](./AirInterface_2.0.0-tsp.191122.1800.zip)
+- [OperationServerInterface_1.0.0-tsp.210513.1620](./OperationServerInterface_1.0.0-tsp.210513.1620.zip)
 
 ### Overview 
-- [AirInterface_2.0.0-tsp.191122.1800+overview.1](./AirInterface_2.0.0-tsp.191122.1800+overview.1.png)
+- [OperationServerInterface_1.0.0-tsp.210513.1620+overview.1](./OperationServerInterface_1.0.0-tsp.210513.1620+overview.1.png)
 
 ### GenDoc Export
-- [AirInterface_2.0.0-tsp.191122.1800+gendoc.1](./AirInterface_2.0.0-tsp.191122.1800+gendoc.1.docx)
+- [OperationServerInterface_1.0.0-tsp.210513.1620+gendoc.1](./OperationServerInterface_1.0.0-tsp.210513.1620+gendoc.1.docx)
 
 ### Augmentation Condition
-- When statement in Augmentation statement demands for LayerProtocol::layerProtocolName==LAYER_PROTOCOL_NAME_TYPE_RESTCONF_LAYER
+- When statement in Augmentation statement demands for LayerProtocol::layerProtocolName==LAYER_PROTOCOL_NAME_TYPE_OPERATION_LAYER
 
 ### YANG File
 - not planned
@@ -36,7 +36,7 @@
 - Live Network
 
 ### Open Issue List
-- [restconfServerInterface/issues](../../issues)
+- [operationServerInterface/issues](../../issues)
 
 ### Comments
 ./.
